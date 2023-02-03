@@ -18,3 +18,11 @@ console.log(typeof add);
 //...................
 console.log(friends.includes(19));
 console.log(friends.includes(21));
+if(friends.indexOf(252) !== -1){
+
+} 
+
+//concat :
+const newFriendsAge = [12, 13, 11, 13];
+const allFriendes = newFriendsAge.concat(friends);
+console.log(allFriendes);
